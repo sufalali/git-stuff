@@ -74,5 +74,8 @@ On the web
  
 	 git remote add origin https://github.com/sufalali/Python.git
 	 git push -u origin master
+	 or
+	 git push origin master -u
+	 
 	     
     
