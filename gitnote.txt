@@ -1,4 +1,4 @@
-inital setup
+inital setup -- Dec162020
 ============
 
 1-after installtion :
