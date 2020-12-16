@@ -1,6 +1,9 @@
 inital setup -- Dec162020
 ============
 
+
+On the Desktop
+------------------
 1-after installtion :
     1.1 : baker@ubntusrv1:~$ git config -l
             baker@ubntusrv1:~$ 
@@ -20,3 +23,6 @@ inital setup -- Dec162020
         user.name=sufalali
         user.email=sufalali@gmail.com
         
+On the web
+----------------
+
