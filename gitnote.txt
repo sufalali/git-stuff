@@ -22,7 +22,57 @@ On the Desktop
         core.editor=vim
         user.name=sufalali
         user.email=sufalali@gmail.com
+      
+      
+   working start from your desktop as follow 
+   -----------------------------------------
+         1. go to the working dirctory like project
+ 		/c/Users/Sufian/projects
+         2. git init <project name >
+                git init Python_notes # example
+          2.1 you might not see it on git bash unless you use ls -la
+          2.2 use the git status to see if you created 
+          2.3 you will be on the bransh master
+
+         3. change directory to that folder:
+                cd Python_notes/  # example
+                use git status # to see if that was created
+
+          3.1 create a file for example using atom inside that dircotry
+          3.2 create a new file using atom for example while you are inside that dirctory
+                atom python_note_keep_Dec2020.py # Ctrl + s and Ctrl +w to save and exit
+
+          3.3 see if the file : use git status
+                Untracked files:
+                (use "git add <file>..." to include in what will be committed)
+            python_note_keep_Dec2020.py
+
+         4. add the file you created to the repository :
+            4.1 : git add python_note_keep_Dec2020.py
+            4.2 : Changes to be committed:
+                    (use "git rm --cached <file>..." to unstage)
+                    new file:   python_note_keep_Dec2020.py
+
+         5. commit the file to the repesitory and by addig some notes
+            5.1 git commit # this will invoke the default test editor 
+            5.2 git commit " This is my message " # this will avoid the need to invoke the editor it self
+
         
 On the web
 ----------------
-
+    1. login 
+    2. go to the + sign and add a new repostory and name it
+    3. to th ehttps fieled and copy it to use it on the client with some other commands
+    
+    
+    
+ To sync what on the laptop to the web
+ -------------------------------------
+ 
+     1.  make sure the you preform the steps liste obove and related to the website setting
+     2. go to the desktp client and preform the following commands:
+ 
+	 git remote add origin https://github.com/sufalali/Python.git
+	 git push -u origin master
+	     
+    
